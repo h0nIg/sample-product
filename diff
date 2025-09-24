@@ -1,0 +1,19 @@
+6c6
+<   "documentNamespace": "sbomnix://06134318-dd13-4769-91d7-3cb94b844d76",
+---
+>   "documentNamespace": "sbomnix://94d6b8b0-7db3-42da-997b-d45b116ad540",
+8c8
+<     "created": "2025-09-24T21:16:04.444947+00:00",
+---
+>     "created": "2025-09-24T21:16:37.464261+00:00",
+20,26c20,21
+<       "homepage": "https://www.gnu.org/software/hello/",
+<       "summary": "Another program that produces a familiar, friendly greeting",
+<       "licenseInfoFromFiles": [
+<         "GPL-3.0-or-later"
+<       ],
+<       "licenseConcluded": "GPL-3.0-or-later",
+<       "licenseDeclared": "GPL-3.0-or-later",
+---
+>       "licenseConcluded": "NOASSERTION",
+>       "licenseDeclared": "NOASSERTION",
