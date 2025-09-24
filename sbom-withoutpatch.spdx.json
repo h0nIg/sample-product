@@ -1,0 +1,160 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "SPDXRef-nix-store-2prr5af60fbk4p6ifi7kpz3dilkqr141-another-2.12.1.drv",
+  "documentNamespace": "sbomnix://94d6b8b0-7db3-42da-997b-d45b116ad540",
+  "creationInfo": {
+    "created": "2025-09-24T21:16:37.464261+00:00",
+    "creators": [
+      "Tool: sbomnix-1.7.2"
+    ]
+  },
+  "comment": "included dependencies: 'runtime_only'",
+  "packages": [
+    {
+      "name": "another",
+      "SPDXID": "SPDXRef-nix-store-2prr5af60fbk4p6ifi7kpz3dilkqr141-another-2.12.1.drv",
+      "versionInfo": "2.12.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:another:another:2.12.1:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/another@2.12.1"
+        }
+      ]
+    },
+    {
+      "name": "glibc",
+      "SPDXID": "SPDXRef-nix-store-jsrrm60pz13dd0h59549p329c8mli9qm-glibc-2.40-66.drv",
+      "versionInfo": "2.40-66",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://www.gnu.org/software/libc/",
+      "summary": "GNU C Library",
+      "licenseInfoFromFiles": [
+        "LGPL-2.0-or-later"
+      ],
+      "licenseConcluded": "LGPL-2.0-or-later",
+      "licenseDeclared": "LGPL-2.0-or-later",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:glibc:glibc:2.40-66:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/glibc@2.40-66"
+        }
+      ]
+    },
+    {
+      "name": "libidn2",
+      "SPDXID": "SPDXRef-nix-store-0l6611hmavdzb322ail1bxz6xmx1myk7-libidn2-2.3.8.drv",
+      "versionInfo": "2.3.8",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://www.gnu.org/software/libidn/#libidn2",
+      "summary": "Free software implementation of IDNA2008 and TR46",
+      "licenseInfoFromFiles": [
+        "LGPL-3.0-or-later",
+        "GPL-2.0-or-later",
+        "GPL-3.0-or-later"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:gnu:libidn2:2.3.8:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/libidn2@2.3.8"
+        }
+      ]
+    },
+    {
+      "name": "libunistring",
+      "SPDXID": "SPDXRef-nix-store-y74q7sgds876xfibvzlcbijwyi3ynrzn-libunistring-1.3.drv",
+      "versionInfo": "1.3",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://www.gnu.org/software/libunistring/",
+      "summary": "Unicode string library",
+      "licenseInfoFromFiles": [
+        "LGPL-3.0-or-later"
+      ],
+      "licenseConcluded": "LGPL-3.0-or-later",
+      "licenseDeclared": "LGPL-3.0-or-later",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:libunistring:libunistring:1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/libunistring@1.3"
+        }
+      ]
+    },
+    {
+      "name": "xgcc",
+      "SPDXID": "SPDXRef-nix-store-p8vpplfq13sjvxxvcfswp8p2rajji7yh-xgcc-14.3.0.drv",
+      "versionInfo": "14.3.0",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:xgcc:xgcc:14.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/xgcc@14.3.0"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-nix-store-2prr5af60fbk4p6ifi7kpz3dilkqr141-another-2.12.1.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-jsrrm60pz13dd0h59549p329c8mli9qm-glibc-2.40-66.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-jsrrm60pz13dd0h59549p329c8mli9qm-glibc-2.40-66.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-0l6611hmavdzb322ail1bxz6xmx1myk7-libidn2-2.3.8.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-jsrrm60pz13dd0h59549p329c8mli9qm-glibc-2.40-66.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-p8vpplfq13sjvxxvcfswp8p2rajji7yh-xgcc-14.3.0.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-0l6611hmavdzb322ail1bxz6xmx1myk7-libidn2-2.3.8.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-y74q7sgds876xfibvzlcbijwyi3ynrzn-libunistring-1.3.drv"
+    }
+  ]
+}
