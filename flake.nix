@@ -37,7 +37,7 @@
           ownStablePackages = findOwnStablePackages pkgs;
         in
           ownStablePackages // {
-            default = ownStablePackages.hello;
+            default = ownStablePackages.another;
           }
       );
 
