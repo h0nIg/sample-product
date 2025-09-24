@@ -1,2 +1,2 @@
-# checkout the path to /sample-product
-# execute: NIX_PATH="nixpkgs=/sample-product/sbom.nix" sbomnix "/nix/store/4rmk37ca2agi85rvp326agyw4qlb0yli-another-2.12.1"
+- checkout the path to /sample-product
+- execute: NIX_PATH="nixpkgs=/sample-product/sbom.nix" sbomnix "/nix/store/4rmk37ca2agi85rvp326agyw4qlb0yli-another-2.12.1"
